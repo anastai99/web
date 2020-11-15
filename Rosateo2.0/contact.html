@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rosateo</title>
+    <link href="contact.css" rel="stylesheet" type="text/css"/>
+    </head>
+<body>
+    
+    
+       <div class="first">
+    <h1>Rosateo</h1>
+        <nav>
+        <ul>
+            <li><a href="fhome.html">HOME</a> </li>
+             <li><a href="fmenu.html">MENU</a> </li>
+             <li><a href="about.html">ABOUT</a> </li>
+             <li><a href="contact.html">CONTACT </a> </li>
+             
+            </ul>
+        
+        </nav>
+        </div>
+    <div class="box1">
+           <div class="box3"></div>
+        <div class="box4">
+       
+        </div>
+        <div class="box2">
+        
+          <form  action="mailto:anastai1999@gmail.com.com" method="post" enctype="text/plain"class="e-p">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <br>
+                Name:
+<input  type="text" name="name">
+E-mail:
+<input type="text" name="mail"><br>
+Comment:<br>
+<textarea name="comment" rows="10" cols="46"></textarea>  <br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+                    </fieldset>
+                    </form>
+        
+        </div>
+     
+    
+    </div>
+    
+    <div class="box1">
+        <div class="box5"></div>
+        <div class="box7"></div>
+        <div class="box6">
+        <div class="box8">
+            <div class="box10">
+            
+            <p class="contact">Contact</p>
+                <p class="add">321 E 96th St, New York, NY 10128 
+<br>(000) 000-0000</p>
+            </div>
+            </div>
+        <div class="box9"></div>
+        </div>
+    
+    </div>
+    
+     <div id="googleMap" style="height:400px;filter:grayscale(90%);-webkit-filter:grayscale(90%);"></div>
+    
+    <div class="box1" id="box15">
+    <div class="box21"></div>
+        <div class="box19">
+        <div class="box20">
+            <p class="box22">Reservation</p>
+            <p class="box23">For reservations please call Rosateo Restaurant directly at (000) 000-0000 after 12 noon till 9:30pm. If you have any questions or concerns please contact example@something.com we will try to get back to you within 48 hours. Thank You! </p>
+            </div>
+        </div>
+    
+    </div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(40.7506 , -73.9935 )
+    
+function initialize() {
+    var mapProp = {
+    center: myCenter,
+    zoom: 12,
+    scrollwheel: false,
+    draggable: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+    
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+var marker = new google.maps.Marker({
+    position: myCenter,
+});
+    
+marker.setMap(map);
+}
+    
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+        <div class="footer">
+        
+        <footer>Rosateo</footer>
+            <p class="nineth">Made by Mohammed Tai <br>Website hosted by <a href="http://briandothat.com/">Brian Lemos </a> to contact him  email him at lemosbrian0725@gmail.com</p>
+            
+        </div>
+        
+        
+    </body>
+</html>

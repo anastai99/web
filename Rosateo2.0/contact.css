@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+}
+.first{
+background-color: rgba(139, 72, 14, 1);
+}
+
+a{
+    color: antiquewhite;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+}
+
+ul{
+ width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+nav{
+    border: 4px solid grey;
+}
+
+
+.box1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+}
+
+.box2{
+  width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(110, 110, 110, 0.82);
+}
+
+.box3{
+    width: 12.5%;
+    height: 400px;
+    float: left;
+    margin: auto;
+    position: relative;
+    background-color: bisque;
+    
+}
+
+.box4{
+    width: 12.5%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/salad.jpg);
+    background-size: cover;
+}
+
+
+form{
+   width: 75%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+   
+}
+
+legend{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.box7{
+   width: 12.5%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/fruit-salad.jpg);
+    background-size: cover;
+}
+
+.box6{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+}
+
+.box5{
+    width: 12.5%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: bisque;
+}
+
+.box8{
+   width: 50%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: bisque
+}
+
+.box9{
+ width: 50%;
+    float:right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/Fish-Sauce-Chicken-Wings.jpg);
+    background-size: cover;
+}
+
+.box10{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 300px;
+    top: 50px;
+     background-color: rgba(223, 124, 32, 1);
+  
+    
+}
+
+.contact{
+width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+    top: 70px;
+}
+
+.add{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+    top: 90px;
+    font-size: 18px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(139, 72, 14, 1);
+        
+}
+
+footer{
+    width: 20%;
+    margin: auto;
+    position: relative;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    top: 30px;
+    border: 2px solid white;
+    
+}
+
+.nineth{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    color: white;
+    top: 86px;
+    font-size: 18px;
+    text-align: center;
+}
+
+sixth{
+    height: 400px;
+}
+
+#box15{
+    background-color: bisque;
+}
+
+.box19{
+   width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.box20{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 350px;
+    background-color: bisque;
+    top: 25px;
+    
+}
+
+.box21{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    height: 400px;
+    position: relative;
+    background-image: url(Media/eggs-2.jpg);
+    background-size: cover;
+}
+
+.box22{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: chocolate;
+    top: 120px;
+    font-size: 30px;
+}
+
+.box23{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: chocolate;
+    top: 140px
+}
+@media only screen and (max-width:450px){
+    
+    .nineth{
+        top: 50px
+    }
+    
+    a{
+        color: black;
+    }
+   
+}
+@media only screen and (max-width:550px){
+    form{
+        margin: auto;
+        position: relative;
+        left: -30px;
+        width: 75%;
+        top: 10px
+    }
+    
+    .nineth{
+        top: 40px;
+    }
+    
+    footer{
+        font-size: 20px;
+    }
+    
+    .box22{
+        top: 50px;
+    }
+    
+    .box23{
+        top: 70px;
+    }
+    
+    .box3{
+       display: none;
+    }
+    
+    .box2{
+        float: left;
+        width: 87.5%;
+    }
+    
+}
+    
+    
+
+
+
+
+
+
+
+
+
+

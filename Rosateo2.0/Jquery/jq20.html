@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+  .focusedin {
+    background: green;
+  }
+  .focusedout {
+    background: blue;
+  }
+  </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){      
+        
+        $("div").focusin(function(){
+        $(this).attr('class', 'focusedin');
+    });
+
+ $("div").focusout(function(){
+        $(this).attr('class', 'focusedout');
+    });
+    });
+      
+    </script>
+</head>
+<body>
+ <div>
+ First name: <input type="text"><br>
+ Last name: <input type="text">
+</div>
+</body>
+</html>

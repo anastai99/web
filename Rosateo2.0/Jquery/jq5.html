@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-git.js"></script>
+<title></title>
+</head>
+    <style>
+     p {
+  background: blue;
+  color: white;  
+  }
+  p.dbl {
+  background: red;
+  color: white;
+  }
+    
+    
+    </style>
+<body>
+<p>click twice to change background color</p>
+</body>
+    
+    <script>
+    
+    var pdbl = $( "p:first" );
+pdbl.dblclick(function() {
+pdbl.toggleClass( "dbl" );
+});
+    
+    </script>
+</html>

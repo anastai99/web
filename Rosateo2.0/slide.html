@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    
+    <style>
+    #slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+    </style>
+<body>
+    
+    <ul id="slides">
+    <li class="slide showing"><img scr=""/></li>
+    <li class="slide"><img scr=""/></li>
+    <li class="slide"><img scr=""/></li>
+    <li class="slide"><img scr=""/></li>
+    <li class="slide"><img scr=""/></li>
+</ul>
+    
+    
+    </body>
+    
+    <script>
+    var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+    </script>
+</html>

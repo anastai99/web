@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+}
+.first{
+background-color: rgba(139, 72, 14, 1);
+}
+
+a{
+    color: antiquewhite;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+}
+
+ul{
+ width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+nav{
+    border: 4px solid grey;
+}
+
+.second{
+    width: 100%;
+    height: 660px;
+}
+
+.mySlides{
+    width: 100%;
+    height: 100%;
+}
+
+.third{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -550px;
+    background-color: rgba(98, 91, 75, 0.55);
+    height: 373px;
+    
+}
+
+.fourth{
+     color: white;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 87px;
+}
+
+.fifth{
+       color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+}
+
+.sixth{
+    width: 100%;
+    height: 322px;
+}
+
+.seventh{
+    width: 50%;
+    float:left;
+    height: 322px;
+     background-color: rgba(110, 110, 110, 0.82);
+}
+
+.eight{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    top: 56px
+}
+
+.nineth{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    color: white;
+    top: 86px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tenth{
+ width: 50%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 322px;
+    background-color: antiquewhite;  
+}
+
+.img1{
+    height: 100%;
+    float:left;
+    
+}
+
+.menu{
+    width: 50%;
+    float: left;
+    height: 322px;
+    margin: auto;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.wine{
+    width: 35%;
+    height: 322px;
+}
+
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
+.menu1{
+  width: 50%;
+    margin: auto;
+    position: relative;
+    left: 120px;
+    top: -270px;
+    height: 250px;
+     background-color: rgba(223, 124, 32, 1);
+    
+}
+
+.passion{
+    width: 50%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 322px;
+    background-color: rgba(223, 124, 32, 1);
+  
+}
+
+.eggs{
+    width: 50%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 322px;
+}
+
+.img3{
+    width: 100%;
+    height: 100%;
+}
+
+.hours{
+    width: 50%;
+    float: right;
+    height: 322px;
+    margin: auto;
+    position: relative;
+    background-color: rgba(110, 110, 110, 0.82);
+
+}
+
+.open{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    height: 230px;
+     background-color: rgba(191, 191, 191, 1);
+
+}
+
+.history{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 322px;
+     background-color: rgba(223, 124, 32, 1);
+}
+
+.chess{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    height: 322px;
+    background-color: antiquewhite;
+}
+
+.left{
+    width: 12.5%;
+    float: right;
+    height: 322px;
+    margin: auto;
+    position: relative;
+}
+
+.img4{
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+     width: 75%;
+    margin: auto;
+    position: relative;
+    height: 322px;
+}
+
+.cream{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 322px;
+}
+
+.contact1{
+    width: 50%;
+    height: 322px;
+    background-color: antiquewhite;
+    
+}
+
+.img5{
+    width: 100%;
+    height: 100%;
+}
+
+.contact3{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    height: 230px;
+    background-color: rgba(223, 124, 32, 1);
+}
+.cake2{
+    width: 50%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 322px;
+    background-color: antiquewhite;
+}
+.cake4{
+    width: 75%;
+    float: left;
+    margin: auto;
+    position:relative;
+    height: 322px;
+}
+
+.img7{
+    height: 100%;
+    width: 100%;
+}
+
+#googleMap {
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(139, 72, 14, 1);
+        
+}
+
+footer{
+    width: 20%;
+    margin: auto;
+    position: relative;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    top: 30px;
+    border: 2px solid white;
+
+}
+
+#made{
+    top: 50px
+}
+
+
+
+@media only screen and (max-width:1050px){
+    
+    a{
+        color:antiquewhite;
+    }
+  
+    li{
+       padding: 20px 12px 10px 10px;  
+    }
+    
+   
+
+    .second{
+        height: 300px;
+        width:100%;
+    }
+    
+    .third{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: -270px;
+    background-color: rgba(98, 91, 75, 0.55);
+    height: 240px;
+    
+}
+    
+    
+.fourth{
+     color: white;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 57px;
+}
+
+    .fifth{
+       color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+}
+   .sixth{
+    width: 100%;
+    height: 322px;
+} 
+    
+    .seventh{
+    width: 100%;
+    float:left;
+    height: 322px;
+     background-color: rgba(110, 110, 110, 0.82);
+        
+}
+    
+    .tenth, .wine, .eggs, .left, .cake4, .cream  {
+        display: none;
+    }
+    
+    .menu1{
+  width: 80%;
+    margin: auto;
+    position: relative;
+    left: 2px;
+    top: 40px;
+    height: 250px;
+     background-color: rgba(223, 124, 32, 1);
+    
+    
+}
+    
+    .open{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    height: 230px;
+     background-color: rgba(191, 191, 191, 1);
+
+}
+
+    .hours{
+    width: 100%;
+    float: right;
+    height: 322px;
+    margin: auto;
+    position: relative;
+    background-color: rgba(110, 110, 110, 0.82);
+
+}
+    
+    .nineth{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    color: white;
+    top: 108px;
+    font-size: 16px;
+    text-align: center;
+        
+}
+    .history{
+        width: 100%;
+    }
+    
+    .contact{
+        width: 100%;
+    }
+ 
+    .contact3{
+        width:200%;
+        margin: auto;
+        position: relative;
+        
+        
+    }
+    
+    #d{
+       width: 100%;
+        height: 30%;
+        padding-left: 0%;
+        position: absolute;
+        text-align: center;
+        left: 0px
+        
+        
+    }
+    
+    #made{
+        top: 50px;
+    }
+    
+    footer{
+        font-size: 20px;
+    }
+    
+}

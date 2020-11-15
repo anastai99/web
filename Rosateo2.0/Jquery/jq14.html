@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(event){
+        $("span").text(event.timeStamp);
+    });
+});
+</script>
+</head>
+<body>
+
+<p>The click event occurred <span style="color:red">unknown</span> milliseconds after the first click.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+}
+.first{
+background-color: rgba(139, 72, 14, 1);
+}
+
+a{
+    color: antiquewhite;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+}
+
+ul{
+ width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+nav{
+    border: 4px solid grey;
+}
+
+
+.box1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+}
+
+.box2{
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+.box3{
+    width: 50%;
+    float: right;
+    height: 400px;
+    background-color: rgba(110, 110, 110, 0.82);
+}
+
+.box4{
+    width: 25%;
+    height: 400px;
+    float: left;
+    
+}
+
+.box5{
+ width: 75%;
+    float: right;
+    height: 400px;
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+}
+
+.box6{
+
+    width: 70%;
+    margin: auto;
+    position: relative;
+    height: 300px;
+    top: 40px;
+    background-color: bisque;
+}
+
+.second{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    color: brown;
+    
+}
+.third{
+width: 85%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    font-size: 20px;
+    color: rgba(170, 94, 49, 1);
+}
+
+.sixth{
+ width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    top: 50px;
+    color: whitesmoke;
+    
+}
+
+.seventh{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+#box3{
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.eighth{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 300px;
+    top: 50px;
+    background-color: bisque;
+    
+}
+.six{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    top: 50px;
+    color:brown;
+}
+.popular{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(139, 72, 14, 1);
+   
+}
+.popular1{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.popular2{
+    width: 12.5%;
+    float:right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/salmon-2.jpg);
+    background-size: cover;
+}
+
+#six{
+    color: bisque;
+}
+
+#third{
+    color: bisque;
+    margin: auto;
+    position: relative;
+    top: 110px;
+}
+
+.choose{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+}
+
+.choose1{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/taco.jpg);
+    background-size: cover;
+}
+
+.choose3{
+    width: 12.5%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.choose4{
+    width: 50%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+     background-color: rgba(223, 124, 32, 1);
+    
+}
+
+.choose5{
+    width: 50%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+}
+
+.choose6{
+    width: 75%;
+    margin: auto;
+    position: relative;
+     height: 300px;
+    top: 50px;
+    background-color: bisque;
+}
+
+#seven{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.best{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(110, 110, 110, 0.82);
+}
+
+.best1{
+    width: 12.5%;
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-color: rgba(223, 124, 32, 1);
+}
+
+.best2{
+width: 12.5%;
+    float: right;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    background-image: url(Media/samosa.jpg);
+    background-size: cover;
+    
+}
+
+#best3{
+    color: whitesmoke;
+    font-size: 30px;
+    margin: auto;
+    position: relative;
+    top: 90px
+}
+
+#seven1{
+    margin: auto;
+    position: relative;
+    top: 140px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(139, 72, 14, 1);
+        
+}
+
+footer{
+    width: 20%;
+    margin: auto;
+    position: relative;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    top: 30px;
+    border: 2px solid white;
+    
+}
+
+.nineth{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    color: white;
+    top: 86px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#box14{
+    background-image: url(Media/pouring-red-wine.jpg);
+    background-size: cover;
+    
+    
+}
+
+#made{
+    top: 50px
+}
+
+
+
+@media only screen and (max-width:1050px){
+ 
+    img, #box14, .best2, .choose1, .popular2{
+        display: none;
+    } 
+    
+   
+    .box5{
+        float: left;
+        width: 100%
+    }
+    
+    .third{
+        top: 65px
+    }
+    
+    .seventh{
+        top: 32px;
+        font-size: 18px;
+        
+    }
+    
+    .sixth{
+        top: 15px
+    }
+    
+    #box3{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        background-color: chocolate;
+        
+    }
+    #box19, .popular1{
+        
+         background-color: crimson;
+    }
+    
+    .choose4{
+        width: 100%;
+        position: absolute;
+        margin: auto;
+    }
+    
+        
+        .box1{
+               background-color: rgba(223, 124, 32, 1); 
+        }
+    
+
+    
+    .choose6{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+    }
+
+    
+    .box22, .best1{
+      background-color:gainsboro;
+    }
+    
+    footer{
+        font-size: 20px;
+    }
+    
+    
+
+
+
+
+

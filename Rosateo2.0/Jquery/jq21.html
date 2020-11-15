@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){  
+        $( "*", document.body ).click(function( event ) {
+  event.stopPropagation();
+  var domElement = $( this ).get( 0 );
+  $( "p:first" ).text( "Clicked on - " + domElement.nodeName );
+});
+    });
+    </script>
+</head>
+<body>
+  <p></p>
+  <h2>This is a heading 2</h2>
+  <div>
+ First name: <input type="text"><br>
+ Last name: <input type="text">
+</div>
+</body>
+</html>
